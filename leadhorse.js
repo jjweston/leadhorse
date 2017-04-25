@@ -1,4 +1,4 @@
-// fakeword - Create fake words by combining two randomly-selected words.
+// leadhorse - Create fake words by combining two randomly-selected words.
 // Copyright (C) 2017 Jeffrey J. Weston
 
 var fs = require( "fs" );
