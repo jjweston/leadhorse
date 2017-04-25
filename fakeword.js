@@ -3,9 +3,18 @@
 
 var fs = require( "fs" );
 
+var wordCount = 10;
 var words = JSON.parse( fs.readFileSync( "words.json" ));
 
-var word1 = Math.floor( Math.random() * words.length );
-var word2 = Math.floor( Math.random() * words.length );
+for ( var i = 0; i < wordCount; i++ )
+{
+    generateWord( words );
+}
 
-console.log( words[ word1 ] + words[ word2 ] );
+function generateWord( words )
+{
+    var word1 = Math.floor( Math.random() * words.length );
+    var word2 = Math.floor( Math.random() * words.length );
+
+    console.log( words[ word1 ] + words[ word2 ] );
+}
