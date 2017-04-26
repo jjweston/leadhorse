@@ -1,6 +1,6 @@
-# leadhorse - Create fake words by combining two randomly-selected words.
+# leadhorse
 
-Sometimes you need a name for something, but don't care what it is. This project creates fake words by combining two
+Sometimes you need a name for something, but don't care what it is. This program creates fake words by combining two
 randomly-selected words from a list of words.
 
 ## Usage
