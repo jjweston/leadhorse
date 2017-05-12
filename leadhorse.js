@@ -5,8 +5,6 @@ leadhorse : Create fake words by combining two randomly-selected words.
 Copyright (C) 2017 Jeffrey J. Weston <jjweston@gmail.com>
 All rights reserved.
 
-BSD 3-Clause License
-
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are met:
 
